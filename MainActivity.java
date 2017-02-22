@@ -39,7 +39,6 @@ private WebView mWebView;
                }
             }
         });
-       // WebSettings mWe=mWebView.getSettings();
     }
 
     @Override
