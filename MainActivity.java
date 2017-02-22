@@ -33,7 +33,6 @@ private WebView mWebView;
 
                } else{
                    Toast.makeText(MainActivity.this,"加载中....",Toast.LENGTH_SHORT).show();
-
                }
             }
         });
