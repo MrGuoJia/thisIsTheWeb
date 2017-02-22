@@ -45,7 +45,7 @@ private WebView mWebView;
                 mWebView.canGoBack();
                 return true;
             }else{
-                System.exit(0);
+                System.exit(0);//
             }
         }
         return super.onKeyDown(keyCode, event);
