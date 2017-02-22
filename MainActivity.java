@@ -7,7 +7,6 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
 public class MainActivity extends AppCompatActivity {
 private WebView mWebView;
     @Override
@@ -16,7 +15,6 @@ private WebView mWebView;
         setContentView(R.layout.activity_main);
         initView();
     }
-
     private void initView() {
         mWebView= (WebView) findViewById(R.id.WebView);
         mWebView.loadUrl("http://www.baidu.com");
@@ -48,7 +46,7 @@ private WebView mWebView;
                 mWebView.canGoBack();
                 return true;
             }else{
-                System.exit(0);
+                System.exit(0);//没用
             }
         }
         return super.onKeyDown(keyCode, event);
